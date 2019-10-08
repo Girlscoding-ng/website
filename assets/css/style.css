@@ -80,7 +80,7 @@ section#counter-stats {
 
 @media screen and (max-width:360px){
     header{
-        height:100vh;
+        height:80vh;
     }
     .hero-text{
         position: absolute;
@@ -103,6 +103,24 @@ section#counter-stats {
     .hero-text{
         position: absolute;
         top: 45%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border: 2px solid white;
+        width: 90%;
+    }  
+    .hero-text p{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:1024px){
+    header{
+        height:80vh;
+    }
+    .hero-text{
+        position: absolute;
+        top: 35%;
         left: 50%;
         text-align: center;
         transform: translate(-50%, -50%);
@@ -168,3 +186,74 @@ section#counter-stats {
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    body{
+        display: ;
+    }
+    .lgNav{
+        display: none;
+    }
+}
+/* sidenav starts*/
+.sidenav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 0, 0.72);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/* sidenav end */
+span.menu {
+    position: absolute;
+    right: 8;
+    left: 25px;
+    top: 18px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 90px;
+}
+@media screen and (min-width:992px) {
+    span.menu{
+        display: none;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-left: 10px;
+    }
+}   
