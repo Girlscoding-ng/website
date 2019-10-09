@@ -4,3 +4,11 @@
     line-height: 1.5;
     box-sizing: border-box;
 }
+.about-header{
+    text-align: center;
+}
+.about-text{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
