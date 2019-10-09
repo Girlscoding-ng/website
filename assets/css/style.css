@@ -59,6 +59,14 @@ section#counter-stats {
     margin-top: 30px;
 }
 /*/ end count stats /*/
+.about-header{
+    text-align: center;
+}
+.about-text{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
 @media screen and (min-width:600px){
     header{
         height:80vh;
