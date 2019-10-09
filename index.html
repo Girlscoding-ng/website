@@ -12,23 +12,126 @@
   <title>GirlsCoding website</title>
 </head>
 <body>
-    <header></header>
-    <section id="about">
-      <div class="container">
-      <h1 class="about-header">ABOUT</h1>
-      <p class="about-text">
-        GirlsCoding is a Non-governmental  that is very passionate about the Girl child and the education of the Girl child.
-        We are passionate about increasing the number of females in STEM, training the girls in underserved community and improving the resourcefulness of young girls and women through our widespread packages.
-        GirlsCoding empowers young ones at school with our well seasoned short exciting courses and STEM projects.
-        Girlscoding is focused on using structured STEM curriculum to train young ones.
-        GirlsCoding enriches the underserved girls with strong IT skills and improve their resourcefulness.
-      </p>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: transparent">
+        <a class="navbar-brand" href="#"><img src="assets/image/logo.PNG" width="150px;" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon text-dark"></span>
+          <i class="fa fa-bars" aria-hidden="false"></i> -->
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto lgNav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PROGRAMS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Technologies</a>
+                <a class="dropdown-item" href="#">Courses</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="mySidenav" class="sidenav smNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li class="nav-item active" style="list-style-type: none;">
+          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" style="list-style-type: none;">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item dropdown" style="list-style-type: none;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PROGRAMS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Technologies</a>
+            <a class="dropdown-item" href="#">Courses</a>
+          </div>
+        </li>
+        <li class="nav-item" style="list-style-type: none;">
+          <a class="nav-link" href="#">GALLERY</a>
+        </li>
+        <li class="nav-item" style="list-style-type: none;">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item" style="list-style-type: none;">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
       </div>
-    </section>
+      <span style="font-size:30px;cursor: pointer;" onclick="openNav()" class="menu">&#9776;</span>
+      <!-- <div class="bannerImage"></div> -->
+       <div class="hero-text">
+            <p>WELCOME TO GIRLSCODING COMMUNITY... <span>We Create</span></p>
+       </div>
+    </header>
+    <div class="bg-light space">
+      <section class="statistics-section">
+        <div class="container">
+          <div class="row showcase text-center">
+            <div  class="col-lg-4 col-md-4">
+              <div class="item">
+                <h5 class="text-400 mt-4"><span class="counter">1000</span><br>Girls Trained</h5>
+              </div>
+            </div>
+            <div  class="col-lg-4 col-md-4">
+              <div class="item">
+                <h5 class="text-400 mt-4"><span class="counter">50</span><br>Schools</h5>
+              </div>
+            </div>
+            <div  class="col-lg-4 col-md-4">
+              <div class="item">
+                <h5 class="text-400 mt-4"><span class="counter">5</span><br>Partners</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dark-mask"></div>
+      </section>
+      
+      <!-- end cont stats -->
+    </div>
+    <section id="about">
+        <div class="container">
+        <h1 class="about-header">ABOUT</h1>
+        <p class="about-text">
+          GirlsCoding is a Non-governmental  that is very passionate about the Girl child and the education of the Girl child.
+          We are passionate about increasing the number of females in STEM, training the girls in underserved community and improving the resourcefulness of young girls and women through our widespread packages.
+          GirlsCoding empowers young ones at school with our well seasoned short exciting courses and STEM projects.
+          Girlscoding is focused on using structured STEM curriculum to train young ones.
+          GirlsCoding enriches the underserved girls with strong IT skills and improve their resourcefulness.
+        </p>
+        </div>
+      </section>
     <footer></footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 </body>
 </html>
