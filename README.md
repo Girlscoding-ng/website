@@ -1,5 +1,5 @@
 # website
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 GirlsCoding Website
 
 ## Contributors ✨
@@ -11,6 +11,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/hopeadegbe"><img src="https://avatars1.githubusercontent.com/u/39594009?v=4" width="100px;" alt="hopeadegbe"/><br /><sub><b>hopeadegbe</b></sub></a><br /><a href="#design-hopeadegbe" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nursetiti"><img src="https://avatars2.githubusercontent.com/u/38245885?v=4" width="100px;" alt="Alade Nosirat"/><br /><sub><b>Alade Nosirat</b></sub></a><br /><a href="#content-nursetiti" title="Content">🖋</a></td>
   </tr>
 </table>
 
