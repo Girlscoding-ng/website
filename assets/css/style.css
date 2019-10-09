@@ -4,3 +4,17 @@
     line-height: 1.5;
     box-sizing: border-box;
 }
+
+.courses-heading {
+    text-align:center;
+}
+
+#unique {
+    padding-top: 8%;
+}
+#common{
+    padding-top:8%;
+}
+p#code {
+    padding-bottom: 8%;
+}
