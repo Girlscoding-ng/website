@@ -378,7 +378,9 @@ hr {
     margin-top:-103px;
   }
 }
-
+.course-logo .img-fluid{
+  margin-left: 0px;
+}
 @media screen and (min-width: 411px) and (max-width: 414px){
   .wrap{
     margin-top:-90px;
