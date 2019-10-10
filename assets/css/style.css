@@ -196,9 +196,6 @@ section#counter-stats {
 }
 
 @media screen and (max-width: 900px) {
-    body{
-        display: ;
-    }
     .lgNav{
         display: none;
     }
@@ -355,7 +352,7 @@ hr {
     margin-top:0px;
     padding-top:0px;
   }
-  .img-fluid {
+  .contain {
     height: 193px;
     width: 70%;
     margin-left: 15%;
@@ -399,7 +396,7 @@ hr {
     margin-top: 20px;
     height: 222px;
   } 
-  .img-fluid {
+  .contain {
     margin-top: 20px;
   }
   img.img-fluid.git {
@@ -439,7 +436,7 @@ img.img-fluid.github {
     padding-left: 137px;
     margin-top: -34px;
   }  
-  .img-fluid {
+  .contain {
     height: 193px;
     margin-top: -8px;  
   }
@@ -493,7 +490,7 @@ img.img-fluid.github {
     height: 155px;
     margin-left: -94px;
   }
-  .img-fluid {
+  .contain {
     height: 193px;
     margin-top: 10px;
     width: 100%;
@@ -505,7 +502,7 @@ img.img-fluid.github {
 }
 
 @media screen and (min-width: 418px) and (max-width: 761px){
-  .img-fluid {
+  .contain {
     margin-left: 5px;
   }
   .node {
