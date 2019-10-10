@@ -391,7 +391,9 @@ hr {
     margin-top:-103px;
   }
 }
-
+.course-logo .img-fluid{
+  margin-left: 0px;
+}
 @media screen and (min-width: 411px) and (max-width: 414px){
   .wrap{
     margin-top:-90px;
@@ -567,4 +569,37 @@ img.img-fluid.github {
     padding: 0px;
     margin-left: 150px !important;
   }
+}
+.courses-heading {
+    text-align:center;
+    padding-top:3%;
+}
+
+#unique {
+    padding-top: 1%;
+}
+#common{
+    padding-top:1%;
+}
+p#code {
+    padding-bottom: 1%;
+}
+@media screen and (min-width:1200px){
+    .text-course-1{
+        margin-top:100px;
+    }
+    .text-course-2{
+        margin-top:100px;
+    }
+    .text-course-3{
+        margin-top:100px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:420px){
+    .order-md-2{
+        margin-top:50px;
+    }
+    .secondCol{
+        margin-top:50px;
+    }
 }
