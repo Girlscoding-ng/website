@@ -4,6 +4,12 @@
     line-height: 1.5;
     box-sizing: border-box;
 }
+.aboutH1{
+    text-align: center;
+}
+.aboutP{
+    text-align: center;
+}
 header{
     background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.72) 0%, rgba(255, 255, 0, 0.78) 100%),url('../image/banner.JPG');
     background-position: center;
@@ -303,12 +309,12 @@ hr {
   .technologies{
       background-color: rgba(128, 128, 128, 0.109);
       padding-bottom: 40px;
-  }
-  #first-row-left{
-    padding-left: 150px;
-    padding-top:20px;
-  }
-  h2{
+    }
+    #first-row-left{
+      padding-left: 150px;
+      padding-top:20px;
+    }
+    h2{
       text-align:center;
       padding-top:20px;
       font-family: sans-serif;
@@ -328,7 +334,7 @@ hr {
     padding-top: 20px;
   }
 
-@media screen and (min-width:240px) and (max-width: 768px){
+  @media screen and (min-width:240px) and (max-width: 768px){
   #row-left{
     margin-left: 0px;
     padding-left: 0px;
@@ -576,30 +582,170 @@ img.img-fluid.github {
 }
 
 #unique {
-    padding-top: 1%;
+  padding-top: 1%;
 }
 #common{
-    padding-top:1%;
+  padding-top:1%;
 }
 p#code {
     padding-bottom: 1%;
-}
-@media screen and (min-width:1200px){
+  }
+  @media screen and (min-width:1200px){
     .text-course-1{
         margin-top:100px;
-    }
-    .text-course-2{
+      }
+      .text-course-2{
         margin-top:100px;
-    }
+      }
     .text-course-3{
         margin-top:100px;
-    }
+      }
 }
 @media screen and (min-width:360px) and (max-width:420px){
     .order-md-2{
-        margin-top:50px;
+      margin-top:50px;
     }
     .secondCol{
         margin-top:50px;
-    }
+      }
+}
+body{
+  overflow-x: hidden;
+}
+.union-bank{
+  height: 158px;
+  width: 120px;
+}
+.us-consulate{
+  height: 158px;
+  width: 120px;
+}
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slider{
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
 }
