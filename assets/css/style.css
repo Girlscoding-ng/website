@@ -52,8 +52,8 @@ section#counter-stats {
 	display: flex;
     justify-content: center;
 }
-.space{
-    padding: 25px;
+.space {
+  padding: 11px;
 }
 .stats {
   text-align: center;
@@ -67,6 +67,11 @@ section#counter-stats {
 /*/ end count stats /*/
 .about-header{
     text-align: center;
+
+}
+#about{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .about-text{
     text-align: left;
@@ -220,7 +225,7 @@ section#counter-stats {
     padding-top: 60px;
   }
   
-  .sidenav a {
+  .sidenav a .txt {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
@@ -229,6 +234,14 @@ section#counter-stats {
     display: block;
     transition: 0.3s;
   }
+  a {
+    color: rgba(255, 255, 0, 0.72);
+    text-decoration: none;
+  }
+  .sidenav .text{
+    color: black !important;
+  }
+  
   
   .sidenav a:hover {
     color: white;
@@ -554,6 +567,13 @@ img.img-fluid.github {
   }
   img.img-fluid.git {
     margin-left: -24px;
+  }
+}
+@media screen and (width: 800px){
+.node {
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 150px !important;
   }
 }
 .courses-heading {
