@@ -749,3 +749,7 @@ body{
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.happy{
+  background-color: #f8f9fa;
+}
