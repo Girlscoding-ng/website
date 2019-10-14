@@ -752,4 +752,5 @@ body{
 
 .happy{
   background-color: #f8f9fa;
+  overflow-x: hidden !important;
 }
