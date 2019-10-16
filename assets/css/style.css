@@ -269,7 +269,7 @@ span.menu {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 @media screen and (min-width:992px) {
     span.menu{
@@ -278,7 +278,7 @@ span.menu {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 }   
 hr {
@@ -754,3 +754,47 @@ body{
   background-color: #f8f9fa;
   overflow-x: hidden;
 }
+
+/* .gallery-container .row{
+    margin: 15px 0px;
+}*/
+#sub{
+    text-align: center;
+    padding: 20px;
+}
+
+.bt{
+   border: 2px solid #FFFF00;
+   margin-left: 33%;
+   width: 35%;
+   border-radius: 10px;
+}
+.bt2{
+    background: #FFFF00;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 4%;
+}
+.bt3{
+    background: #FFFF00;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 4%;
+}
+.bt4{
+    background: #FFFF00;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 4%;
+}
+#read{
+    margin-top: 5%;
+    text-align: center;
+    background-color: #FFFF00;
+}
+.size{
+    margin-bottom: 10%;
+}
+.siz{
+    margin-bottom: 10%;
+} 
