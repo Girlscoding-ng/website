@@ -269,7 +269,7 @@ span.menu {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    /* margin-left: 90px; */
+    margin-left: 90px;
 }
 @media screen and (min-width:992px) {
     span.menu{
@@ -278,7 +278,7 @@ span.menu {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        /* margin-left: 10px; */
+        margin-left: 10px;
     }
 }   
 hr {
@@ -798,3 +798,7 @@ body{
 .siz{
     margin-bottom: 10%;
 } 
+.blogWrapper .img-fluid,
+.galleryWrapper .img-fluid{
+  margin-left: 0px;
+}
