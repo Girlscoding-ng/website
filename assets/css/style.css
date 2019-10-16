@@ -809,3 +809,28 @@ body{
   margin-left:0px;
 }
 }
+
+@media screen and (min-width: 1024px){
+    .formWrapper {
+        width:50%;
+        margin:0px auto;
+        margin-top:20px;
+    }
+}
+
+.contact-sub{
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+#Message{
+    resize: none;
+    height:200px;
+}
+.btnSubmit{
+    background-color: #FFFF33;
+    width: 100%;
+}
