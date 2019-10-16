@@ -766,7 +766,7 @@ body{
 .bt{
    border: 2px solid #FFFF00;
    margin-left: 33%;
-   width: 35%;
+   width: 34%;
    border-radius: 10px;
 }
 .bt2{
@@ -801,4 +801,11 @@ body{
 .blogWrapper .img-fluid,
 .galleryWrapper .img-fluid{
   margin-left: 0px;
+}
+@media screen and (max-width: 600px) {
+.bt{
+  border:2px solid #FFFF00;
+  width: 100%;
+  margin-left:0px;
+}
 }
