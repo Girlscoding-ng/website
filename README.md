@@ -1,5 +1,5 @@
 # website
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 GirlsCoding Website
 
 ## Contributors ✨
@@ -16,6 +16,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Nelson-Chinedu"><img src="https://avatars1.githubusercontent.com/u/26670804?v=4" width="100px;" alt="codeburst"/><br /><sub><b>codeburst</b></sub></a><br /><a href="#review-Nelson-Chinedu" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/sharon222"><img src="https://avatars2.githubusercontent.com/u/39191825?v=4" width="100px;" alt="sharon222"/><br /><sub><b>sharon222</b></sub></a><br /><a href="https://github.com/Girlscoding-ng/website/commits?author=sharon222" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mariammatt"><img src="https://avatars0.githubusercontent.com/u/30868893?v=4" width="100px;" alt="mariammatt"/><br /><sub><b>mariammatt</b></sub></a><br /><a href="https://github.com/Girlscoding-ng/website/commits?author=mariammatt" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/nwalaladyjoy"><img src="https://avatars2.githubusercontent.com/u/38246087?v=4" width="100px;" alt="nwalaladyjoy"/><br /><sub><b>nwalaladyjoy</b></sub></a><br /><a href="https://github.com/Girlscoding-ng/website/commits?author=nwalaladyjoy" title="Code">💻</a></td>
   </tr>
 </table>
 
