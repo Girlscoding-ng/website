@@ -712,26 +712,38 @@ overflow-x: hidden;
   background-color: rgba(233,174,62,.9);
 }
 .bt2, .bt3, .bt4{
-background-color: rgba(214,176,20,0.8);  
+background-color:rgba(233,174,62,.9);  
 }
 .bt2:hover, .bt3:hover, .bt4:hover{
-background-color: rgba(233,174,62,.9);
-
+background-color: rgba(236,184,86,0.9);
 }
 .bt2{
   border-radius: 8px;
   width: 100%;
-  margin-bottom: 4%;
+  margin-bottom: 15%;
+}
+.bt11{
+  width:100%;
+  background-color: rgba(214,176,20,0.8);
+  text-align:center;
+  margin-bottom:5%;
 }
 .bt3{
   border-radius: 8px;
   width: 100%;
-  margin-bottom: 4%;
+  margin-bottom: 15%;
 }
 .bt4{
   border-radius: 8px;
   width: 100%;
-  margin-bottom: 4%;
+  margin-bottom: 15%;
+}
+.bt6{
+   margin-bottom: 4%;
+   border: 2px solid rgba(233,174,62,.9);
+}
+.bt6:hover{
+  color: grey;
 }
 #read{
   margin-top: 5%;
@@ -748,7 +760,13 @@ background-color: rgba(233,174,62,.9);
 .galleryWrapper .img-fluid{
 margin-left: 0px;
 }
-
+.bt{
+  background-color: rgba(214,176,20,0.8);
+  margin-left: 33%;
+  width: 34%;
+  border-radius: 10px;
+  margin-top:3%;
+ }
 @media screen and (max-width: 600px) {
 .bt{
 border:2px solid rgba(214,176,20,0.8);
@@ -767,6 +785,7 @@ margin-left:0px;
 
 .contact-sub{
   text-align: center;
+  padding:20px;
 }
 
 .form-control {
