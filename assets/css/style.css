@@ -711,10 +711,11 @@ overflow-x: hidden;
 .bt:hover{
   background-color: rgba(233,174,62,.9);
 }
-.bt2, .bt3, .bt4{
-background-color:rgba(233,174,62,.9);  
+.bt2, .bt3, .bt4, .bt11{
+background-color:rgba(214,176,20,0.8);  
 }
-.bt2:hover, .bt3:hover, .bt4:hover{
+.bt2:hover, .bt3:hover, .bt4:hover, 
+.bt11:hover{
 background-color: rgba(236,184,86,0.9);
 }
 .bt2{
@@ -769,7 +770,6 @@ margin-left: 0px;
  }
 @media screen and (max-width: 600px) {
 .bt{
-border:2px solid rgba(214,176,20,0.8);
 width: 100%;
 margin-left:0px;
 }
