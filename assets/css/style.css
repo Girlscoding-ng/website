@@ -12,7 +12,7 @@
   text-align: center;
 }
 header{
-  background-image:linear-gradient(rgba(233,174,62,.9), rgba(214,176,20,0.8)),url('../image/banner.JPG');    
+  background-image:linear-gradient(rgba(233,174,62,.9), rgba(214,176,20,0.8)),url('https://res.cloudinary.com/dg23c8ydi/image/upload/v1571749778/banner_czw84v.jpg');    
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -546,7 +546,8 @@ img.img-fluid.git {
   padding-top:3%;
 }
 
-#unique {
+#unique1,
+#unique2 {
 padding-top: 1%;
 }
 #common{
