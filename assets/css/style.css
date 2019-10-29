@@ -5,6 +5,9 @@
   line-height: 1.5;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .aboutH1{
   text-align: center;
 }
