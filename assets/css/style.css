@@ -138,6 +138,13 @@ padding-bottom: 20px;
   letter-spacing: 1px;
   line-height: 1.8em;
 }
+textarea{
+  resize: none;
+}
+#alert{
+  display:none;
+  text-align: center;
+}
 @media screen and (min-width:600px){
   header{
       height:80vh;
