@@ -334,25 +334,26 @@
         <section id="Contact">
           <div class="container formWrapper">
             <h2 class="contact-sub" id="contact">Contact</h2>
-            <form data-aos="fade-up">
+            <form data-aos="fade-up" id="contact_handler">
+                <div class="" id="alert" role="alert"></div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" id="firstName" placeholder="Firstname" required>
+                  <input type="text" class="form-control" id="firstname" name="firstname" onkeyup="errorHandler()" placeholder="Jane" title="Enter Firstname" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" id="lastName" placeholder="Lastname" required>
+                  <input type="text" class="form-control" id="lastname" name="lastname" onkeyup="errorHandler()" placeholder="Lara" title="Enter Lastname" required>
                 </div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" onkeyup="errorHandler()" placeholder="jane.lara@example.com" title="Enter Email Address" required>
               </div>
               <div class="form-group">
-                <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
+                <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" onkeyup="errorHandler()" onkeypress="isInputNumber(event)" placeholder="080xxxxxxxx" title="Enter Phone Number" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" id="Message" placeholder="Message" rows="3" required></textarea>
+                <textarea class="form-control" id="message" name="message" onkeyup="errorHandler()" placeholder="I will like to make an enquiry" title="Enter Your Message" rows="10" cols="5" required></textarea>
               </div>
-              <button type="submit" class="btn btnSubmit" id="contact-button">Get in touch</button>
+              <button type="submit" class="btn btnSubmit" id="contact-button" title="click">Send Message</button>
             </form>
           </div>
         </section>
