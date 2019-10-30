@@ -8,6 +8,16 @@
 html{
   scroll-behavior: smooth;
 }
+#comment{
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  border-radius: 62px;
+  padding: 10px;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
 .aboutH1{
   text-align: center;
 }
