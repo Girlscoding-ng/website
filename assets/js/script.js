@@ -42,6 +42,7 @@ function openNav() {
 
     $('#comment').on('click', function(){
       $('.chat').toggleClass('chatShow');
+      $('#MSG').focus();
     })
   });
 
