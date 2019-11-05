@@ -39,15 +39,18 @@ function openNav() {
         }
       }]
     });
+
+    $('#comment').on('click', function(){
+      $('.chat').toggleClass('chatShow');
+      $('#MSG').focus();
+    })
   });
 
 
   (function ($) {
     $.fn.countTo = function (options) {
       options = options || {};
-      
       return $(this).each(function () {
-        // set options for current element
         var settings = $.extend({}, $.fn.countTo.defaults, {
           from:            $(this).data('from'),
           to:              $(this).data('to'),
@@ -56,7 +59,6 @@ function openNav() {
           decimals:        $(this).data('decimals')
         }, options);
         
-        // how many times to update the value, and how much to increment the value on each update
         var loops = Math.ceil(settings.speed / settings.refreshInterval),
           increment = (settings.to - settings.from) / loops;
         
@@ -205,16 +207,11 @@ function openNav() {
         phoneNumber.value = '';
         emailAddress.value = '';
         message.value = '';
-        setInterval(function(){
-          alert.style.display = 'none';
-          responseText.textContent = '';
-        }, 5000);
       }
     })
-  
   }
   
   contactHandler.addEventListener('submit', (e) => {
     e.preventDefault();
     sendData();
-  })
+  });
