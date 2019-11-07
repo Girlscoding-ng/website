@@ -18,6 +18,10 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
+  // function closeChat() {
+  //   document.getElementById("chatWrapper").style.display = "none";
+  // }
+
   $(document).ready(function(){
     $('.customer-logos').slick({
       slidesToShow: 4,
@@ -43,6 +47,12 @@ function openNav() {
     $('#comment').on('click', function(){
       $('.chat').toggleClass('chatShow');
       $('#MSG').focus();
+      $(this).toggleClass('toggleIcon');
+    });
+
+    $('#closeChat').on('click', function(){
+      $('.chat').removeClass('chatShow');
+      $('#comment').removeClass('toggleIcon');
     })
   });
 

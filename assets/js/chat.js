@@ -3,7 +3,7 @@ let $messages = $('.messages-content');
 $(window).load(function() {
   $messages.mCustomScrollbar();
   setTimeout(function() {
-    serverMessage(`Hi, i'm your friend the official bot for girlscoding`);
+    serverMessage(`Hi, i'm Odun the official bot for girlscoding`);
   }, 100);
 
 });
