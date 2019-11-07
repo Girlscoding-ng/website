@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="ladyjoy, ore, nosirat, hope">
   <meta name="keyword" content="girls coding, girls, developer, pearls africa">
+  <link rel="icon" href="./assets/image/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Rubik:500&display=swap" rel="stylesheet">
@@ -127,7 +128,7 @@
       <div class="container">
         <h2 class="about-header" id="about">About</h2>
         <p class="about-text" data-aos="fade-up">
-          GirlsCoding is a Non-governmental that is very passionate about the Girl child and the education of 
+          GirlsCoding is a Non-governmental organization that is very passionate about the Girl child and the education of 
           the Girl child. We are passionate about increasing the number of females in STEM, training the 
           girls in an underserved community and improving the resourcefulness of young girls and women through 
           our widespread packages. GirlsCoding empowers young ones at school with our well seasoned short 
@@ -329,7 +330,7 @@
                 <img src="https://res.cloudinary.com/dg23c8ydi/image/upload/v1571749783/gala6_dqouts.jpg" class="img-fluid siz" alt="Gallery image">
               </div>
             </div>
-            <a href="#" class="btn bt" data-aos="fade-up">VIEW MORE</a>
+            <a class="btn bt" data-aos="fade-up">VIEW MORE</a>
           </div>
         </section>
         <section id="Contact">
@@ -358,10 +359,15 @@
             </form>
           </div>
         </section>
-        <div class="chat">
+        <div class="chat" id="chatWrapper">
           <div class="chat-title">
-            <h1>Need a name suggestion</h1>
-            <h2><span id="status"></span> Online</h2>
+            <div class="botProfile">
+              <h1>Odun</h1>
+              <h2><span id="status"></span> Online</h2>
+            </div>
+            <div class="botClose">
+              <i class="fa fa-times fa-1x" id="closeChat" aria-hidden="true"></i>
+            </div>
             <figure class="avatar">
               <img src="./assets/image/bot.jpg"/></figure>
           </div>
@@ -404,52 +410,39 @@
           </li>
           </ul>
       </div>
-      
-      <!-- Grid column -->
       <div class="col-md-3 mx-auto dow">
       <p class="font-weight-bold text-uppercase mt-3 mb-4">Locate Us</p>
         <p class="links">55, Moleye Street, Alagomeji, <br>Sabo, Yaba<p>
         <p class="links">Lagos, Nigeria</p>
         <p class="links">Tel: 08162771452</p>
-        <p class="links">Email:info@girlscoding.com.ng</p>
+        <p class="links">Email:info@pearlsafrica.org</p>
       </div>
-      
-      <!-- Grid column -->
       <div class="col-md-2 mx-auto">
         <p class="font-weight-bold text-uppercase mt-3 mb-4">Follow Us</p>
-      
-              <ul class="list-unstyled links">
-                <li>
-                  <a href="#!">Instagram</a>
-                </li>
-                <li>
-                  <a href="#!">Twitter</a>
-                </li>
-                <li>
-                  <a href="#!">Linkedin</a>
-                </li>
-                <li>
-                  <a href="#!">Facebook</a>
-                </li>
-              </ul>
-            </div>
-  
-           
-      
-          </div>
-          <!-- Grid row -->
-      
+          <ul class="list-unstyled links">
+            <li>
+              <a href="https://www.instagram.com/pearlsafrica/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/pearls_africa" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <a href="https://ng.linkedin.com/in/pearls-africa-foundation-37858815b" target="_blank">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/pearlsafrica/" target="_blank">Facebook</a>
+            </li>
+          </ul>
         </div>
       </div>
-        <!-- Footer Links -->
-      
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright: GirlsCoding.
-        </div>
-        <!-- Copyright -->
-      
-      </footer>
-      <!-- Footer -->
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">
+    <p>&copy; 2018 Copyright- GirlsCoding an initiative of 
+      <a href="https://www.pearlsafrica.org" target="_blank">Pearls Africa Foundation</a>.
+    </p> 
+  </div>
+</footer>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
@@ -460,5 +453,4 @@
 <script src="./assets/js/script.js"></script>
 <script src="./assets/js/chat.js"></script>
 </body>
-
 </html>
