@@ -18,10 +18,6 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-  // function closeChat() {
-  //   document.getElementById("chatWrapper").style.display = "none";
-  // }
-
   $(document).ready(function(){
     $('.customer-logos').slick({
       slidesToShow: 4,
@@ -183,7 +179,7 @@ function openNav() {
 
   const sendData =  async () => {
 
-    await fetch('https:girlscoding-api.herokuapp.com/contact', {
+    await fetch('https:girlscoding.herokuapp.com/api/v1/contact', {
       credential: "same-origin",
       method: "POST",
       headers: {
